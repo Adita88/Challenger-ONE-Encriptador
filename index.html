@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width = device-width">
+        <title>Encriptador Challenge - ONE</title>
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+            <section class="para_encriptar">
+                <div>
+                    <img class="logo" src="img/Logo.png" alt="Logo Alura">
+                </div>
+                <div class="">
+                    <textarea id="txt_encriptar" name="">Ingresa el texto aquí</textarea>
+                    <p class="p_para_encriptar">
+                        <img src="img/bi_exclamation-circle-fill.png"/>
+                        Solo letras minúsculas y sin acentos
+                    </p>
+                </div>
+                <div class="buttons">
+                    <button class="buttonED" onclick="encriptarBtn()">Encriptar</button>
+                    <button id="desencriptar" class="buttonED" onclick="desEncriptarBtn()">Desencriptar</button>
+                </div>
+            </section>
+            <section id="encriptado" class="encriptado">
+                <div id="divEncriptado">
+                    <img src="img/munneco.png" alt="Imágen muñeco"/> 
+                    <p class="noEncontrado">Ningún mensaje fue encontrado</p>
+                    <p class="ingreseTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <div id="encriptando"> 
+                    <p id="pEncriptado" class="pEncriptado"></p>
+                    <button id="copiarBtn" class="buttonED" onclick="copiarTxt('pEncriptado')">Copiar</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <h6>Mariana Barrientos Mora</h6>
+        </footer>
+        
+        <script src="js/script.js"></script>
+    </body>
+</html>

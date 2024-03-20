@@ -1,0 +1,389 @@
+/* <uniquifier>: Use a unique and descriptive class name */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+/* MAIN */
+body {
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+main {
+    display: flex;
+}
+
+.para_encriptar {
+    margin: 50px 50px 0px 50px;  
+    width: 950px;
+}
+
+.para_encriptar textarea{
+    width: 800px;
+    height: 450px;
+    font-size: 20px;
+    color: #0A3871;
+    padding-top: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+#txt_encriptar {
+    margin-top: 20px;
+}
+
+#txt_encriptar {
+    background-color: #ececec;
+    border: none;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.p_para_encriptar {
+    font-size: 12px;
+    color: #45565F;
+    margin-left: 130px;
+}
+
+.p_para_encriptar img {
+    width: 1.5%;
+}
+
+.buttons {
+    margin: 10px 0px 0px 130px;
+}
+
+.buttonED {
+    width: 210px;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+    background-color: #0A3871;
+    color: white;
+    font-size: 11px;
+}
+
+#desencriptar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    margin-left: 15px;
+    border-width: 1px;
+    border-color: #0A3871;
+    border-style: solid;
+}
+
+.encriptado {
+    width: 350px;
+    height: 660px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.encriptado img {
+    width: 70%;
+    padding-left: 50px;
+    margin-top: 180px;
+}
+
+.encriptado .noEncontrado {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #343A40;
+    margin-top: 20px;
+}
+
+.encriptado .ingreseTexto {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    color: #495057;
+    margin-top: 20px;
+}
+
+.pEncriptado {
+    width: 310px;
+    height: 550px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #495057;
+    border-radius: 20px;
+}
+
+#copiarBtn {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    margin-top: 20px;
+    margin-left: 75px;
+    border-width: 1px;
+    border-color: #0A3871;
+    border-style: solid;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 16px;
+}
+
+/* MEDIA QUERIES */
+@MEDIA (MAX-WIDTH: 900PX) {
+    /* MAIN */
+    body {
+        width: 900px;
+        background-color: #E5E5E5;
+    }
+  
+    main {
+        display: block;
+    }
+ 
+    .para_encriptar {
+        margin: 40px 0px 0px 40px;
+        width: 800px;
+    }
+  
+    .para_encriptar textarea{
+        width: 750px;
+        height: 400px;
+        font-size: 15px;
+    }
+  
+    .p_para_encriptar {
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    .buttons {
+        margin: 25px 0px 0px 200px;
+    }
+  
+    .buttonED {
+        width: 190px;
+        height: 45px;
+        font-size: 12px;
+    }
+  
+    #desencriptar {
+        margin-left: 20px;
+    }
+  
+
+
+
+
+
+
+
+
+    
+    .encriptado {
+        width: 700px;
+        height: 130px;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+  
+    .encriptado img {
+        width: 0%;
+        padding-left: 50px;
+        margin-top: 0px;
+    }
+  
+    .encriptado .noEncontrado {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+  
+    .encriptado .ingreseTexto {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .pEncriptado {
+        width: 550px;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+  
+    /* FOOTER */
+    footer {
+        width: 850px;
+    }
+}
+
+/* 700 */
+@MEDIA (MAX-WIDTH: 700PX) {
+    /* MAIN */
+    body {
+        width: 700px;
+    }
+  
+    main {
+        display: block;
+    }
+    
+    .para_encriptar {
+        margin: 40px 0px 0px 40px;
+        width: 600px;
+    }
+  
+    .para_encriptar textarea{
+        width: 600px;
+        height: 300px;
+        font-size: 15px;
+    }
+  
+    .p_para_encriptar {
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    .buttons {
+        margin: 25px 0px 0px 125px;
+    }
+  
+    .buttonED {
+        width: 200px;
+        height: 45px;
+        font-size: 12px;
+    }
+  
+    #desencriptar {
+        margin-left: 20px;
+    }
+  
+    .encriptado {
+        width: 600px;
+        height: 130px;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+  
+    .encriptado img {
+        width: 0%;
+        padding-left: 50px;
+        margin-top: 0px;
+    }
+  
+    .encriptado .noEncontrado {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+  
+    .encriptado .ingreseTexto {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .pEncriptado {
+        width: 400px;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+  
+    /* FOOTER */
+    footer {
+        width: 700px;
+    }
+}
+
+/* 500 */
+@MEDIA (MAX-WIDTH: 500PX) {
+    /* MAIN */
+    body {
+        width: 500px;
+    }
+  
+    main {
+        display: block;
+    }
+    
+    .para_encriptar {
+        margin: 40px 0px 0px 40px;
+        width: 4500px;
+    }
+  
+    .para_encriptar textarea{
+        width: 450px;
+        height: 275px;
+        font-size: 15px;
+    }
+  
+    .p_para_encriptar {
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    .buttons {
+        margin: 25px 0px 0px 75px;
+    }
+  
+    .buttonED {
+        width: 150px;
+        height: 45px;
+        font-size: 12px;
+    }
+  
+    #desencriptar {
+        margin-left: 20px;
+    }
+  
+    .encriptado {
+        width: 450px;
+        height: 130px;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+  
+    .encriptado img {
+        width: 0%;
+        padding-left: 50px;
+        margin-top: 0px;
+    }
+  
+    .encriptado .noEncontrado {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+  
+    .encriptado .ingreseTexto {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+  
+    .p_para_encriptar img {
+        width: 0.2%;
+    }
+
+    .pEncriptado {
+        width: 400px;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+  
+    /* FOOTER */
+    footer {
+        width: 500px;
+    }
+}
