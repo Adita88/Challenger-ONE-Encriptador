@@ -16,28 +16,40 @@
 
     <body>
         <main>
+            <!-- SECTION textarea y botones encriptar y desencriptar-->
             <section class="para_encriptar">
                 <div>
+                    <!-- Imagen del muñeco-->
                     <img class="logo" src="img/Logo.png" alt="Logo Alura">
                 </div>
                 <div class="">
+                    <!-- TextArea donde ingresa texto a encriptar-->
                     <textarea id="txt_encriptar" name="">Ingresa el texto aquí</textarea>
+
+                    <!-- Adventercia de solo letras minusculas y sin acentos-->
                     <p class="p_para_encriptar">
                         <img src="img/bi_exclamation-circle-fill.png"/>
                         Solo letras minúsculas y sin acentos
                     </p>
                 </div>
+
+                <!-- Botones encriptar y desencriptar-->
                 <div class="buttons">
                     <button class="buttonED" onclick="encriptarBtn()">Encriptar</button>
                     <button id="desencriptar" class="buttonED" onclick="desEncriptarBtn()">Desencriptar</button>
                 </div>
             </section>
+
+            <!-- SECTION donde va el texto encriptado o desencriptado-->
             <section id="encriptado" class="encriptado">
+                <!-- Aparece visible al cargar la página -->
                 <div id="divEncriptado">
                     <img id="imgMunneco" src="img/munneco.png" alt="Imágen muñeco"/> 
                     <p class="noEncontrado">Ningún mensaje fue encontrado</p>
                     <p class="ingreseTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
                 </div>
+
+                <!-- No visible al cargar la página, aparece cuando se da click en encriptar o en desencriptar-->
                 <div id="encriptando"> 
                     <p id="pEncriptado" class="pEncriptado"></p>
                     <button id="copiarBtn" class="buttonED" onclick="copiarTxt('pEncriptado')">Copiar</button>
