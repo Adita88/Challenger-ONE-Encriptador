@@ -153,23 +153,23 @@ footer {
     }
  
     .para_encriptar {
-        margin: 40px 0px 0px 40px;
-        width: 800px;
+        margin: 40px 0px 0px 25px;
+        width: 100%;
     }
   
-    .para_encriptar textarea{
-        width: 750px;
+    #txt_encriptar{
+        width: 80%;
         height: 400px;
         font-size: 15px;
     }
   
     .p_para_encriptar {
         margin-top: 10px;
-        margin-left: 100px;
+        margin-left: 90px;
     }
 
     .buttons {
-        margin: 25px 0px 0px 200px;
+        margin: 25px 0px 0px 180px;
     }
   
     .buttonED {
@@ -182,27 +182,14 @@ footer {
         margin-left: 20px;
     }
   
-
-
-
-
-
-
-
-
-    
     .encriptado {
-        width: 700px;
-        height: 130px;
-        background-color: white;
-        border-radius: 20px;
-        margin-top: 50px;
-        margin-left: 40px;
+        width: 97%;
+        height: 315px;
+        margin-left: 25px;
     }
   
     .encriptado img {
         width: 0%;
-        padding-left: 50px;
         margin-top: 0px;
     }
   
@@ -210,57 +197,67 @@ footer {
         font-size: 25px;
         margin-top: 20px;
     }
-  
+
     .encriptado .ingreseTexto {
         font-size: 15px;
         margin-top: 20px;
     }
 
     .pEncriptado {
-        width: 550px;
+        width: 95%;
+        height: 225px;
         padding-top: 20px;
-        font-size: 18px;
+        font-size: 16px;
     }
-  
+
+    #copiarBtn {
+        width: 90%;
+        margin-top: 15px;
+        margin-left: 60px;
+        border-width: 1px;
+    }
+
     /* FOOTER */
     footer {
-        width: 850px;
+        width: 100%;
     }
 }
 
 /* 700 */
+/* MEDIA QUERIES */
 @MEDIA (MAX-WIDTH: 700PX) {
     /* MAIN */
     body {
         width: 700px;
+        background-color: #E5E5E5;
     }
   
     main {
         display: block;
     }
-    
+ 
     .para_encriptar {
-        margin: 40px 0px 0px 40px;
-        width: 600px;
+        margin: 40px 0px 0px 25px;
+        width: 100%;
     }
   
-    .para_encriptar textarea{
-        width: 600px;
-        height: 300px;
+    #txt_encriptar{
+        width: 80%;
+        height: 400px;
         font-size: 15px;
     }
   
     .p_para_encriptar {
         margin-top: 10px;
-        margin-left: 100px;
+        margin-left: 90px;
     }
 
     .buttons {
-        margin: 25px 0px 0px 125px;
+        margin: 25px 0px 0px 180px;
     }
   
     .buttonED {
-        width: 200px;
+        width: 190px;
         height: 45px;
         font-size: 12px;
     }
@@ -270,17 +267,13 @@ footer {
     }
   
     .encriptado {
-        width: 600px;
-        height: 130px;
-        background-color: white;
-        border-radius: 20px;
-        margin-top: 50px;
-        margin-left: 40px;
+        width: 97%;
+        height: 315px;
+        margin-left: 25px;
     }
   
     .encriptado img {
         width: 0%;
-        padding-left: 50px;
         margin-top: 0px;
     }
   
@@ -288,58 +281,68 @@ footer {
         font-size: 25px;
         margin-top: 20px;
     }
-  
+
     .encriptado .ingreseTexto {
         font-size: 15px;
         margin-top: 20px;
     }
 
     .pEncriptado {
-        width: 400px;
+        width: 95%;
+        height: 225px;
         padding-top: 20px;
-        font-size: 18px;
+        font-size: 16px;
     }
-  
+
+    #copiarBtn {
+        width: 90%;
+        margin-top: 15px;
+        margin-left: 60px;
+        border-width: 1px;
+    }
+
     /* FOOTER */
     footer {
-        width: 700px;
+        width: 100%;
     }
 }
 
 /* 500 */
+/* MEDIA QUERIES */
 @MEDIA (MAX-WIDTH: 500PX) {
     /* MAIN */
     body {
         width: 500px;
+        background-color: #E5E5E5;
     }
   
     main {
         display: block;
     }
-    
+ 
     .para_encriptar {
-        margin: 40px 0px 0px 40px;
-        width: 4500px;
+        margin: 40px 0px 0px 25px;
+        width: 100%;
     }
   
-    .para_encriptar textarea{
-        width: 450px;
-        height: 275px;
+    #txt_encriptar{
+        width: 65%;
+        height: 400px;
         font-size: 15px;
     }
   
     .p_para_encriptar {
         margin-top: 10px;
-        margin-left: 100px;
+        margin-left: 90px;
     }
 
     .buttons {
-        margin: 25px 0px 0px 75px;
+        margin: 25px 0px 0px 70px;
     }
   
     .buttonED {
-        width: 150px;
-        height: 45px;
+        width: 170px;
+        height: 35px;
         font-size: 12px;
     }
   
@@ -348,42 +351,42 @@ footer {
     }
   
     .encriptado {
-        width: 450px;
-        height: 130px;
-        background-color: white;
-        border-radius: 20px;
-        margin-top: 50px;
-        margin-left: 40px;
+        width: 97%;
+        height: 315px;
+        margin-left: 25px;
     }
   
     .encriptado img {
         width: 0%;
-        padding-left: 50px;
         margin-top: 0px;
     }
   
     .encriptado .noEncontrado {
-        font-size: 20px;
+        font-size: 25px;
         margin-top: 20px;
     }
-  
+
     .encriptado .ingreseTexto {
-        font-size: 10px;
+        font-size: 15px;
         margin-top: 20px;
-    }
-  
-    .p_para_encriptar img {
-        width: 0.2%;
     }
 
     .pEncriptado {
-        width: 400px;
+        width: 90%;
+        height: 225px;
         padding-top: 20px;
-        font-size: 18px;
+        font-size: 16px;
     }
-  
+
+    #copiarBtn {
+        width: 90%;
+        margin-top: 15px;
+        margin-left: 25px;
+        border-width: 1px;
+    }
+
     /* FOOTER */
     footer {
-        width: 500px;
+        width: 100%;
     }
 }
